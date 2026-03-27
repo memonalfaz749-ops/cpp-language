@@ -26,21 +26,21 @@ class employee{
      cout<<"Enter employee age :";
      cin>>emp_age;
 
-     cout<<"Enter employee role";
+     cout<<"Enter employee role :";
      cin>>emp_role;
 
-     cout<<"Enter employee salary";
+     cout<<"Enter employee salary :";
      cin>>emp_salary;
 
      cout<<"Enter employee city :";
      cin>>emp_city;
 
      
-     cout<<"Enter employee experience";
+     cout<<"Enter employee experience :";
      getline(cin,emp_experience);
 
      
-     cout<<"Enter employee company name";
+     cout<<"Enter employee company name : ";
      getline(cin,emp_company_name);
 
 
