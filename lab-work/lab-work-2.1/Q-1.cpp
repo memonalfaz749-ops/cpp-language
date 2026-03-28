@@ -62,15 +62,15 @@ class employee{
 };
 int main(){
     
-    employee e[2];
+    employee e[5];
 
-    for(int i=0;i<2;i++){
+    for(int i=0;i<5;i++){
 
         cout<<"\n\n===||Enter Employee "<<i+1<<" Details||===\n\n";
         e[i].getDATA();
     }
 
-    for(int i=0;i<2;i++){
+    for(int i=0;i<5;i++){
 
         cout<<"\n\n===|| Employee "<<i+1<<" Details||===\n\n";
         e[i].printDATA();
