@@ -3,7 +3,7 @@ using namespace std;
 
 int main (){
 
-    string student_name = "Alfaz";
+    string student_name = "Alfaz Memon";
 
     cout<<"Student Name :"<<student_name<<endl;
 
@@ -11,7 +11,7 @@ int main (){
 
     cout<<"Student Name :"<<s_name<<endl;
 
-    s_name = "Aryan";
+    s_name = "ankush ";
 
     cout<<"Student Name :"<<student_name<<endl;
 
