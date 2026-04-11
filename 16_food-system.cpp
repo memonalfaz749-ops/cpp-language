@@ -54,6 +54,7 @@ class Food{
 
         totalBill = totalBill + totalprice;
 
+        cout<<"Total price of pizza :"<<totalprice<<endl;
         cout<<"Total Bill :"<<totalBill<<endl;
     }
 
@@ -67,7 +68,9 @@ class Food{
 
         totalprice = price * foodQuntity;
 
+
         totalBill = totalBill + totalprice;
+        cout<<"Total price of Burger :"<<totalprice<<endl;
         cout<<"Total Bill :"<<totalBill<<endl;
     }
     
