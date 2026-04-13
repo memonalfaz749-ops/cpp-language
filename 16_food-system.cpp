@@ -89,10 +89,58 @@ class Food{
         cout<<"Total price of Burger :"<<totalprice<<endl;
         cout<<"Total Bill :"<<totalBill<<endl;
     }
+
+    void Dosa(){
+        price = 180;
+
+        FoodName = "Dosa";
+        cout<<"Food Name : Dosa"<<endl;
+        cout<<"Enter Quntity :";
+        cin>>foodQuntity;
+
+        totalprice = price * foodQuntity;
+
+
+        totalBill = totalBill + totalprice;
+        cout<<"Total price of Dosa :"<<totalprice<<endl;
+        cout<<"Total Bill :"<<totalBill<<endl;
+    }
     
 };
 
+class delivery{
 
+    int Id;
+    string deliveryBoyName;
+    string phone;
+
+    void getDelivery(){
+
+        cout<<"Enter Delivery Id :";
+        cin>>Id;
+
+        cout<<"Enter Delivery Boy Name :";
+        cin>>deliveryBoyName;
+
+        cout<<"Enter phone no :";
+        cin>>phone;
+    }
+
+    void DisplayDelivery(){
+        cout<<"\n\n||-== Delivery Boy Details ==-||"<<endl;
+        cout<<"Delivery Id :"<<Id<<endl;
+        cout<<"Delivery Boy Name :"<<deliveryBoyName<<endl;
+        cout<<"Phone no :"<<phone<<endl;
+
+    }
+
+};
+
+
+class final:public Food{
+
+
+};
 int main (){
 
 
@@ -118,7 +166,9 @@ int main (){
             break;
         case 3:
             f.Pasta();
-            break;    
+            break;  
+        case 4:
+            f.Dosa();      
         default:
             break;
         }
