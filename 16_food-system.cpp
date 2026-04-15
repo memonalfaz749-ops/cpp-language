@@ -113,7 +113,7 @@ class delivery{
     int Id;
     string deliveryBoyName;
     string phone;
-
+ public:
     void getDelivery(){
 
         cout<<"Enter Delivery Id :";
@@ -139,9 +139,18 @@ class delivery{
 class system:public User,public delivery{
 
     public:
+
+    void server(){
+        cout<<"Welcome To Food Zone"<<endl;
+        printUserData();
+        DisplayDelivery();
+
+    }
     
 };
-class final:public Food{
+class final:public Food,public system{
+
+
 
 
 
@@ -151,7 +160,10 @@ int main (){
 
     User u;
     Food f;
+    delivery d;
     int choice;
+    final f1;
+    
 
     u.getUserData();
 
@@ -179,6 +191,9 @@ int main (){
         }
     }
     while(choice !=5 );
+    d.getDelivery();
+    f1.server();
+    
 
 
 }
