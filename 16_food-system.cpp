@@ -171,11 +171,31 @@ class final:public system{
     public :
 
     void bill(){
+      if (pizzaqty > 0){
+
         cout<<"Pizza\t"<<pizzaprice<<"\t"<<pizzaqty<<"\t"<<pizzatotal<<endl;
-        cout<<"Burger\t"<<endl;
-        cout<<"Pasta\t"<<endl;
-        cout<<"Dosa\t"<<endl;
-        cout<<"Total Bill :"<<totalBill<<endl;
+
+      } 
+
+      if (bgqty > 0){
+
+        cout<<"Burger\t"<<bgprice<<"\t"<<bgqty<<"\t"<<bgtotal<<endl;
+
+      } 
+
+      if(pastaqty > 0){
+
+        cout<<"Pasta\t"<<pastaprice<<"\t"<<pastaqty<<"\t"<<pastatotal<<endl;
+
+      }
+
+      if(dosaqty > 0){
+
+        cout<<"Dosa\t"<<dosaprice<<"\t"<<dosaqty<<"\t"<<dosaprice<<endl;
+
+      }
+        
+        cout<<"Total Bill :\t\t"<<totalBill<<endl;
     }
 
 
