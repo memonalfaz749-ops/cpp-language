@@ -132,7 +132,7 @@ class delivery{
  public:
     void getDelivery(){
 
-        cout<<"Enter Delivery Id :";
+        cout<<"\nEnter Delivery Id :";
         cin>>Id;
 
         cin.ignore();
@@ -147,7 +147,7 @@ class delivery{
         cout<<"\n\n||-== Delivery Boy Details ==-||"<<endl;
         cout<<"Delivery Id :"<<Id<<endl;
         cout<<"Delivery Boy Name :"<<deliveryBoyName<<endl;
-        cout<<"Phone no :"<<phone<<endl;
+        cout<<"Phone no :"<<phone<<"\n"<<endl;
 
     }
 
@@ -173,7 +173,7 @@ class final:public system{
     void bill(){
       if (pizzaqty > 0){
 
-        cout<<"Pizza\t"<<pizzaprice<<"\t"<<pizzaqty<<"\t"<<pizzatotal<<endl;
+        cout<<"\n\nPizza\t"<<pizzaprice<<"\t"<<pizzaqty<<"\t"<<pizzatotal<<endl;
 
       } 
 
@@ -214,7 +214,7 @@ int main (){
 
     do{
         cout<<"\n\n||----FOOD MENU----||"<<endl;
-        cout<<"Press 1 for Pizza \nPress 2 for Burger \nPress 3 for Pasta \nPress 4 for Dosa\nPress 5 for Exit"<<endl;
+        cout<<"Press 1 for Pizza \nPress 2 for Burger \nPress 3 for Pasta \nPress 4 for Dosa\nPress 5 for Exit\n"<<endl;
         cout<<"Enter Your choice :";
         cin>>choice;
 
