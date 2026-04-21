@@ -59,6 +59,7 @@ class Food{
 
         FoodName = "Pizza";
         cout<<"Food Name : Pizza"<<endl;
+        cout<<"price :"<<pizzaprice<<endl;
         cout<<"Enter Quntity :";
         cin>>pizzaqty;
 
@@ -68,7 +69,6 @@ class Food{
         totalBill = totalBill + totalprice;
 
         cout<<"Total price of pizza :"<<totalprice<<endl;
-        cout<<"Total Bill :"<<totalBill<<endl;
     }
 
      void Burger(){
@@ -76,6 +76,7 @@ class Food{
 
         FoodName = "Burger";
         cout<<"Food Name : Burger"<<endl;
+        cout<<"price :"<<bgprice<<endl;
         cout<<"Enter Quntity :";
         cin>>bgqty;
 
@@ -85,7 +86,6 @@ class Food{
 
         totalBill = totalBill + totalprice;
         cout<<"Total price of Burger :"<<totalprice<<endl;
-        cout<<"Total Bill :"<<totalBill<<endl;
     }
 
     void Pasta(){
@@ -93,6 +93,7 @@ class Food{
 
         FoodName = "Pasta";
         cout<<"Food Name : Pasta"<<endl;
+        cout<<"price :"<<pastaprice<<endl;
         cout<<"Enter Quntity :";
         cin>>pastaqty;
 
@@ -102,7 +103,6 @@ class Food{
 
         totalBill = totalBill + totalprice;
         cout<<"Total price of Burger :"<<totalprice<<endl;
-        cout<<"Total Bill :"<<totalBill<<endl;
     }
 
     void Dosa(){
@@ -110,6 +110,7 @@ class Food{
 
         FoodName = "Dosa";
         cout<<"Food Name : Dosa"<<endl;
+        cout<<"price :"<<dosaprice<<endl;
         cout<<"Enter Quntity :";
         cin>>dosaqty;
 
@@ -119,7 +120,7 @@ class Food{
 
         totalBill = totalBill + totalprice;
         cout<<"Total price of Dosa :"<<totalprice<<endl;
-        cout<<"Total Bill :"<<totalBill<<endl;
+        
     }
     
 };
@@ -175,29 +176,29 @@ class final:public system{
         cout<<"Food Name\t"<<"price\t"<<"Qty\t"<<"Total"<<endl;
       if (pizzaqty > 0){
 
-        cout<<"\n\nPizza\t\t"<<pizzaprice<<"\t"<<pizzaqty<<"\t"<<pizzatotal<<endl;
+        cout<<"\nPizza\t\t"<<pizzaprice<<"\t"<<pizzaqty<<"\t"<<pizzatotal<<endl;
 
       } 
 
       if (bgqty > 0){
 
-        cout<<"Burger\t"<<bgprice<<"\t"<<bgqty<<"\t"<<bgtotal<<endl;
+        cout<<"Burger\t\t"<<bgprice<<"\t"<<bgqty<<"\t"<<bgtotal<<endl;
 
       } 
 
       if(pastaqty > 0){
 
-        cout<<"Pasta\t"<<pastaprice<<"\t"<<pastaqty<<"\t"<<pastatotal<<endl;
+        cout<<"Pasta\t\t"<<pastaprice<<"\t"<<pastaqty<<"\t"<<pastatotal<<endl;
 
       }
 
       if(dosaqty > 0){
 
-        cout<<"Dosa\t"<<dosaprice<<"\t"<<dosaqty<<"\t"<<dosaprice<<endl;
+        cout<<"Dosa\t\t"<<dosaprice<<"\t"<<dosaqty<<"\t"<<dosaprice<<endl;
 
       }
         
-        cout<<"Total Bill :\t\t"<<totalBill<<endl;
+        cout<<"Total Bill :\t\t\t"<<totalBill<<endl;
     }
 
 
